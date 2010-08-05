@@ -11,7 +11,7 @@ version_info = (0, 1, 0, 0)
 
 def play_post_pull_hook(pull_result):
 	if os.path.exists("framework/src/play"):
-		print "Buildind Play! framework"
+		print "Building Play! framework"
 		savedPath = os.getcwd()
 		os.chdir('framework')
 		subprocess.Popen('ant').wait()
