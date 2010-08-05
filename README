@@ -1,0 +1,14 @@
+This is a BZR plugin for play framework, just build the framework after pull
+*run the ant script every time updating your play repository*
+
+HOW TO :
+
+cd ~/.bazaar/plugins
+create this directory if it not exists
+git clone git@github.com:waxzce/BZR-plugin-for-play-framework.git playbzr
+!! your directory name does not contains any "-"
+now you can check if the plugin is here by 
+bzr plugins
+
+have fun and report for problems
+-> we don't support any bugs on windows
