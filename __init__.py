@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # play build bzr plugin
 
-""A plugin to launch the play ant script after pull
-""
+"""A plugin to launch the play ant script after pull
+"""
 
 from bzrlib import branch
 import os,os.path,subprocess
