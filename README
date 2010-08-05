@@ -7,7 +7,9 @@ create ~/.bazaar/plugins if it not exists
 
 cd ~/.bazaar/plugins
 
-git clone https://waxzce@github.com/waxzce/BZR-plugin-for-play-framework.git playbzr
+git clone git://github.com/waxzce/BZR-plugin-for-play-framework.git playbzr
+or
+git clone https://github.com/waxzce/BZR-plugin-for-play-framework.git playbzr
 
 !! your directory name does not contains any "-"
 
